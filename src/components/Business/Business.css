@@ -1,0 +1,38 @@
+.restaurant-card {
+  display: block;
+  width: 350px;
+  height: 350px;
+  min-width: 350px;
+  border: 1px solid rgb(152, 97, 3);
+  margin: 10px;
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+img {
+  width: 100%;
+  height: 230px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.category {
+  color: rgb(152, 97, 3);
+  font-weight: bold;
+}
+
+.info {
+  padding-bottom: 10px;
+}
+
+p {
+  margin: 0;
+}
